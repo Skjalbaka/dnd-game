@@ -8,6 +8,7 @@ public class Main {
 		HomePanel c = new HomePanel();
 		
 		frame.add(c);
+		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		frame.pack();
